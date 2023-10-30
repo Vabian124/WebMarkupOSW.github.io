@@ -6,6 +6,9 @@ body {
     background: #f1faee;
     font-family: 'Inter', sans-serif;
   }
+  img{
+    max-height: 80vh;
+  }
   
   h1 {
     font-size: 48px;

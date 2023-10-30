@@ -5,8 +5,9 @@
     <title>Contact Page</title>
     <link rel="icon" type="image/png" href="img/logo_128.png" />
     <link rel="stylesheet" type="text/css" href="./css/contact.css" />
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
   </head>
-  <body>
+  <body class="">
     <header class="header">
 <img class="logo" src="img/logo_128.png" alt="Logo" onclick="location.href='index.html';" />
 
@@ -21,10 +22,13 @@
         <button><a href="contact.html">Contact</a></button>
       </nav>
     </header>
+    <section class="headerBanner">
+      <img src="img/detailPage/detailBanner.jpg" alt="Header Banner" />
+    </section>
     <main>
       <section>
         <h2>Contact Us</h2>
-        <form>
+        <form action="submitform.php">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" required>
           <label for="email">Email:</label>
